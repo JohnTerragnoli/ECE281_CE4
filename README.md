@@ -20,15 +20,15 @@ The important part of the code is listed below:
 		   03	   0			Y	0	N
 		   04	   B			Y	0	N
 		   05	   7	LDAI	N	1	Y   //8	puts 8 into the accumulator
-		   06	   8			  	Y	0	N
+		   06	   8		  	Y	0	N
 		   07	   D	STA	C4	N	2	Y //stores the value in the accumulator, 8,into the location C4
 		   08	   4			Y	0	N
 		   09	   C			Y	0	N
 		   0A	   7	LDAI	N	1	Y //B	puts the hex value B into the Accumulator
 		   0B	   B			Y	0	N
 		   0C	   D	STA	CB      N	2	Y         //stores the value in the accumulator, hex B,into the location CB
-		   0D	   B		Y	0	N
-		   0E	   C		Y	0	N
+		   0D	   B			Y	0	N
+		   0E	   C			Y	0	N
 	0F	   0F	   9	JMP	0F	N	2	Y
 		   10	   F			Y	0	N
 		   11	   0			Y	0	N
