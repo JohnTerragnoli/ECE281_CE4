@@ -63,12 +63,17 @@ loop	   0A	   9	JMP	loop	N	2	N
 
 ```
 
-The purpose of this program was to take in a number at the memory location B0 and double it, subtract four, and then output the value in the accumulator to output 2.  
+The purpose of this program was to take in a number at the memory location B0 and double it, subtract four, and then output the resulting value, which is in the accumulator, to output 2.  The computer then entered a never ending loop to end the program so that it doesn't crash.  
+
+The rest of the code in Part B simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
 
 
+// denotes comments.  
 
 #Part C
 The full assembly code for Part C can be seen here: [Part_C](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm)
+
+The purpose of this program was to 
 
 
 
