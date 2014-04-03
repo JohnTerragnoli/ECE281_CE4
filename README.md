@@ -42,6 +42,7 @@ The rest of the code in Part A simply took up space, it just contained commands 
 #Part B
 The full assembly code for Part B can be seen here: [Part_B](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20B%20Code.psm)
 
+```
 		   00	   F	LDAD	B0		N	2	N//puts the number from location B0 into the accumulator
 		   01	   0		Y	0	N
 		   02	   B		Y	0	N
@@ -56,7 +57,7 @@ loop	   0A	   9	JMP	loopN	2	N
 		   0B	   A		Y	0	N
 		   0C	   0		Y	0	N
 
-
+```
 
 #Part C
 The full assembly code for Part C can be seen here: [Part_C](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm)
