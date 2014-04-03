@@ -89,13 +89,13 @@ loop	   02	   4	OUT	0		N	1	Y//puts the value in the accumulator onto the third o
 		   05	   F				Y	0	N
 		   06	   4	OUT	1		N	1	Y//puts the value in the accumulator onto the third output
 		   07	   1				Y	0	N
-		   08	   6	ADDI	F		N	1	Y//adds 1's compliment, like subtracting 1
+		   08	   6	ADDI	F	N	1	Y//adds 1's compliment, like subtracting 1
 		   09	   F				Y	0	N
 		   0A	   4	OUT	2		N	1	Y//puts the value in the accumulator onto the third output
 		   0B	   2				Y	0	N
-		   0C	   6	ADDI	1		N	1	Y//adds 1 so the cycle can start over
+		   0C	   6	ADDI	1	N	1	Y//adds 1 so the cycle can start over
 		   0D	   1				Y	0	N
-		   0E	   9	JMP	loop		N	2	Y//loops up to the label "loop" and the top.  
+		   0E	   9	JMP	loop	N	2	Y//loops up to the label "loop" and the top.  
 		   0F	   2				Y	0	N
 		   10	   0				Y	0	N
 ```
