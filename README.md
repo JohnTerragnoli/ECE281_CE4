@@ -37,8 +37,13 @@ The important part of the code is listed below:
 
 The purpose of this code was simple.  To put the value 9 into the accumulator, then store the value in the accumulator at the location B0.  Then, the program put 8 into the accumulator and stored this new value int he accumulator at the location C4.  Then, the program stored the hex value B in the accumulator.  the contents of the accumulator were then dumped into the location CB.  After all of this was finished, the program entered an infinte loop to end the program so that it would not crash.  
 
+The rest of the code in Part A simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
+
 #Part B
 The full assembly code for Part B can be seen here: [Part_B](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20B%20Code.psm)
+
+
+
 
 #Part C
 The full assembly code for Part C can be seen here: [Part_C](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm)
