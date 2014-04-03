@@ -26,7 +26,7 @@ The important part of the code is listed below:
 		   09	   C			Y	0	N
 		   0A	   7	LDAI	N	1	Y 	//B	puts the hex value B into the Accumulator
 		   0B	   B			Y	0	N
-		   0C	   D	STA	CB  N	2	Y    //stores the value in the accumulator, hex B,into the location CB
+		   0C	   D	STA	CB  N	2	Y   //stores the value in the accumulator, hex B,into the location CB
 		   0D	   B			Y	0	N
 		   0E	   C			Y	0	N
 	0F	   0F	   9	JMP	0F	N	2	Y
