@@ -9,13 +9,13 @@ The purpose of this computer exercise was to learn how to use some of the basic 
 
 
 #Part A
-The full assembly code for Part A can be seen here: (Part_A)[https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20A%20Code.psm]
+The full assembly code for Part A can be seen here: [Part_A](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20A%20Code.psm)
 
 #Part B
-The full assembly code for Part B can be seen here: (Part_A)[https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20B%20Code.psm]
+The full assembly code for Part B can be seen here: [Part_B](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20B%20Code.psm)
 
 #Part A
-The full assembly code for Part C can be seen here: (Part_A)[https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm]
+The full assembly code for Part C can be seen here: [Part_C](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm)
 
 
 
