@@ -19,7 +19,7 @@ The important part of the code is listed below:
 		   02	   D	STA	B0	N	2	Y //stores the value in the accumulator, 9, at the position B0	
 		   03	   0			Y	0	N
 		   04	   B			Y	0	N
-		   05	   7	LDAI		N	1	Y //8	puts 8 into the accumulator
+		   05	   7	LDAI		N	1	Y   //8	puts 8 into the accumulator
 		   06	   8			  	Y	0	N
 		   07	   D	STA	C4	N	2	Y //stores the value in the accumulator, 8,into the location C4
 		   08	   4			Y	0	N
