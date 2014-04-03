@@ -1,16 +1,16 @@
-		   00	   7	LDAI	9		N	1	Y
+		   00	   7	LDAI	9	puts 9 into the accumulator	N	1	Y
 		   01	   9				Y	0	N
-		   02	   D	STA	B0		N	2	Y
+		   02	   D	STA	B0	stores the value in the accumulator, 9, at the position B0	N	2	Y
 		   03	   0				Y	0	N
 		   04	   B				Y	0	N
-		   05	   7	LDAI	8		N	1	Y
+		   05	   7	LDAI	8	puts 8 into the accumulator	N	1	Y
 		   06	   8				Y	0	N
-		   07	   D	STA	C4		N	2	Y
+		   07	   D	STA	C4	stores the value in the accumulator, 8,into the location C4	N	2	Y
 		   08	   4				Y	0	N
 		   09	   C				Y	0	N
-		   0A	   7	LDAI	B		N	1	Y
+		   0A	   7	LDAI	B	puts the hex value B into the Accumulator	N	1	Y
 		   0B	   B				Y	0	N
-		   0C	   D	STA	CB		N	2	Y
+		   0C	   D	STA	CB	stores the value in the accumulator, hex B,into the location CB	N	2	Y
 		   0D	   B				Y	0	N
 		   0E	   C				Y	0	N
 	0F	   0F	   9	JMP	0F		N	2	Y

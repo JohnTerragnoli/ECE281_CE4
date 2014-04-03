@@ -1,12 +1,12 @@
-		   00	   F	LDAD	B0		N	2	N
+		   00	   F	LDAD	B0	puts the number from location B0 into the accumulator	N	2	N
 		   01	   0				Y	0	N
 		   02	   B				Y	0	N
-		   03	   E	ADDD	B0		N	2	N
+		   03	   E	ADDD	B0	adds the number from B0 to the accumulator again	N	2	N
 		   04	   0				Y	0	N
 		   05	   B				Y	0	N
-		   06	   6	ADDI	C		N	1	N
+		   06	   6	ADDI	C	adds 4's compliment in hex, just like subracting 4 from the accumulator	N	1	N
 		   07	   C				Y	0	N
-		   08	   4	OUT	2		N	1	N
+		   08	   4	OUT	2	outputs the value in the accumulator to the second output	N	1	N
 		   09	   2				Y	0	N
 	loop	   0A	   9	JMP	loop		N	2	N
 		   0B	   A				Y	0	N
