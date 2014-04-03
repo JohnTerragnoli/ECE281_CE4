@@ -39,6 +39,10 @@ The purpose of this code was simple.  To put the value 9 into the accumulator, t
 
 The rest of the code in Part A simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
 
+
+// denotes comments.  
+
+
 #Part B
 The full assembly code for Part B can be seen here: [Part_B](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20B%20Code.psm)
 
@@ -58,6 +62,10 @@ loop	   0A	   9	JMP	loop	N	2	N
 		   0C	   0				Y	0	N
 
 ```
+
+The purpose of this program was to take in a number at the memory location B0 and double it, subtract four, and then output the value in the accumulator to output 2.  
+
+
 
 #Part C
 The full assembly code for Part C can be seen here: [Part_C](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm)
