@@ -35,6 +35,11 @@ The important part of the code is listed below:
 
 ```
 
+LDAI - means load a value into the accumulator
+STA - means store the value in the accumulator into the named location. 
+JMP - means jump to this point and keep working.  This was used to put the program into an infinite loop.  
+
+
 The purpose of this code was simple.  To put the value 9 into the accumulator, then store the value in the accumulator at the location B0.  Then, the program put 8 into the accumulator and stored this new value int he accumulator at the location C4.  Then, the program stored the hex value B in the accumulator.  the contents of the accumulator were then dumped into the location CB.  After all of this was finished, the program entered an infinte loop to end the program so that it would not crash.  
 
 The rest of the code in Part A simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
@@ -62,6 +67,10 @@ loop	   0A	   9	JMP	loop	N	2	N
 		   0C	   0				Y	0	N
 
 ```
+
+LDAD - loads a value from a location and puts it into the accumulator. 
+ADDD - adds a value to what is already in the accumulator and stores it in the accumulator. 
+OUT - outputs the value in the accumulator to the desired output.  
 
 The purpose of this program was to take in a number at the memory location B0 and double it, subtract four, and then output the resulting value, which is in the accumulator, to output 2.  The computer then entered a never ending loop to end the program so that it doesn't crash.  The subtraction of 4 was done by adding C, which is the 2's compliment of 4 in hex.  This is basically subtracting four.  
 
@@ -100,6 +109,7 @@ loop	   02	   4	OUT	0		N	1	Y//puts the value in the accumulator onto the third o
 		   10	   0				Y	0	N
 ```
 
+IN - takes a value from a specific input and stores that value into the accumulator.  
 
 
 #Suggestions
