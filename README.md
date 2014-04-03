@@ -14,7 +14,7 @@ The full assembly code for Part A can be seen here: [Part_A](https://raw.githubu
 The important part of the code is listed below: 
 
 ```
-		   00	   7	LDAI	N	1	Y //9	puts 9 into the accumulator
+		   00	   7	LDAI	N	1	Y //	puts 9 into the accumulator
 		   01	   9			Y	0	N
 		   02	   D	STA	B0	N	2	Y //stores the value in the accumulator, 9, at the position B0	
 		   03	   0			Y	0	N
@@ -34,6 +34,8 @@ The important part of the code is listed below:
 		   11	   0			Y	0	N
 
 ```
+
+The purpose of this code was simple.  To put the value 9 into the accumulator, then store the value in the accumulator at the location B0.  Then, the program put 8 into the accumulator and stored this new value int he accumulator at the location C4.  Then, the program stored the hex value B in the accumulator.  the contents of the accumulator were then dumped into the location CB.  After all of this was finished, the program entered an infinte loop to end the program so that it would not crash.  
 
 #Part B
 The full assembly code for Part B can be seen here: [Part_B](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20B%20Code.psm)
