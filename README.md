@@ -40,7 +40,7 @@ STA - means store the value in the accumulator into the named location.
 JMP - means jump to this point and keep working.  This was used to put the program into an infinite loop.  
 
 
-The purpose of this code was simple.  To put the value 9 into the accumulator, then store the value in the accumulator at the location B0.  Then, the program put 8 into the accumulator and stored this new value int he accumulator at the location C4.  Then, the program stored the hex value B in the accumulator.  the contents of the accumulator were then dumped into the location CB.  After all of this was finished, the program entered an infinte loop to end the program so that it would not crash.  
+The purpose of this code was simple.  To put the value 9 into the accumulator, then store the value in the accumulator at the location B0.  Then, the program put 8 into the accumulator and stored this new value int he accumulator at the location C4.  Then, the program stored the hex value B in the accumulator.  The contents of the accumulator were then dumped into the location CB.  After all of this was finished, the program entered an infinte loop to end the program so that it would not crash.  
 
 The rest of the code in Part A simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
 
@@ -82,7 +82,7 @@ The rest of the code in Part B simply took up space, it just contained commands 
 #Part C
 The full assembly code for Part C can be seen here: [Part_C](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm)
 
-The purpose of this program was to put the value of the input at input 3 into the first output, then subract one from that and put it in the second output, then subract one from the second output and put it in the third output.  Then, the program iterated to have the first output decriment by 1, and have the second and third outputs follow suit. This incrimentation was done by looping the progam back to the beginning, after putting the input value into the accumulator.  To decriment by 1, F was added, because F is the 2's compliment of 1 in hex.  
+The purpose of this program was to put the value of the input at input 3 into the first output, then subract one from that and put it in the second output, then subract one from the second output and put it in the third output.  Then, the program iterated to have the first output decriment by 1, and have the second and third outputs follow suit. This was all done by storing and changing the value in the accumulator, and outputing that value to different outputs at differnt time.  The incrimentation was done by looping the progam back to the beginning, after putting the input value into the accumulator.  To decriment by 1, F was added, because F is the 2's compliment of 1 in hex.  Thus adding f is subtracting 1.  
 
 The rest of the code in Part C simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
 
