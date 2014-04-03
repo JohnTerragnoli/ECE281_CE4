@@ -63,7 +63,7 @@ loop	   0A	   9	JMP	loop	N	2	N
 
 ```
 
-The purpose of this program was to take in a number at the memory location B0 and double it, subtract four, and then output the resulting value, which is in the accumulator, to output 2.  The computer then entered a never ending loop to end the program so that it doesn't crash.  
+The purpose of this program was to take in a number at the memory location B0 and double it, subtract four, and then output the resulting value, which is in the accumulator, to output 2.  The computer then entered a never ending loop to end the program so that it doesn't crash.  The subtraction of 4 was done by adding C, which is the 2's compliment of 4 in hex.  This is basically subtracting four.  
 
 The rest of the code in Part B simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
 
@@ -73,7 +73,11 @@ The rest of the code in Part B simply took up space, it just contained commands 
 #Part C
 The full assembly code for Part C can be seen here: [Part_C](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20C%20Code.psm)
 
-The purpose of this program was to 
+The purpose of this program was to put the value of the input at input 3 into the first output, then subract one from that and put it in the second output, then subract one from the second output and put it in the third output.  Then, the program iterated to have the first output decriment by 1, and have the second and third outputs follow suit. This incrimentation was done by looping the progam back to the beginning, after putting the input value into the accumulator.  To decriment by 1, F was added, because F is the 2's compliment of 1 in hex.  
+
+The rest of the code in Part C simply took up space, it just contained commands telling the computer to do nothing basically.  The computer never reached these commands anyway.  
+
+The most important parts of the code for Part C are produced below: 
 
 
 
