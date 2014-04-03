@@ -52,7 +52,7 @@ The full assembly code for Part B can be seen here: [Part_B](https://raw.githubu
 		   07	   C		Y	0	N
 		   08	   4	OUT	2		N	1	N //outputs the value in the accumulator to the second output
 		   09	   2		Y	0	N
-	loop	   0A	   9	JMP	loopN	2	N
+loop	   0A	   9	JMP	loopN	2	N
 		   0B	   A		Y	0	N
 		   0C	   0		Y	0	N
 
