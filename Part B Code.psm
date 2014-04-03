@@ -1,0 +1,256 @@
+		   00	   F	LDAD	B0		N	2	N
+		   01	   0				Y	0	N
+		   02	   B				Y	0	N
+		   03	   E	ADDD	B0		N	2	N
+		   04	   0				Y	0	N
+		   05	   B				Y	0	N
+		   06	   6	ADDI	C		N	1	N
+		   07	   C				Y	0	N
+		   08	   4	OUT	2		N	1	N
+		   09	   2				Y	0	N
+	loop	   0A	   9	JMP	loop		N	2	N
+		   0B	   A				Y	0	N
+		   0C	   0				Y	0	N
+		   0D	   0	NOP			N	0	N
+		   0E	   0	NOP			N	0	N
+		   0F	   0	NOP			N	0	N
+		   10	   0	NOP			N	0	N
+		   11	   0	NOP			N	0	N
+		   12	   0	NOP			N	0	N
+		   13	   0	NOP			N	0	N
+		   14	   0	NOP			N	0	N
+		   15	   0	NOP			N	0	N
+		   16	   0	NOP			N	0	N
+		   17	   0	NOP			N	0	N
+		   18	   0	NOP			N	0	N
+		   19	   0	NOP			N	0	N
+		   1A	   0	NOP			N	0	N
+		   1B	   0	NOP			N	0	N
+		   1C	   0	NOP			N	0	N
+		   1D	   0	NOP			N	0	N
+		   1E	   0	NOP			N	0	N
+		   1F	   0	NOP			N	0	N
+		   20	   0	NOP			N	0	N
+		   21	   0	NOP			N	0	N
+		   22	   0	NOP			N	0	N
+		   23	   0	NOP			N	0	N
+		   24	   0	NOP			N	0	N
+		   25	   0	NOP			N	0	N
+		   26	   0	NOP			N	0	N
+		   27	   0	NOP			N	0	N
+		   28	   0	NOP			N	0	N
+		   29	   0	NOP			N	0	N
+		   2A	   0	NOP			N	0	N
+		   2B	   0	NOP			N	0	N
+		   2C	   0	NOP			N	0	N
+		   2D	   0	NOP			N	0	N
+		   2E	   0	NOP			N	0	N
+		   2F	   0	NOP			N	0	N
+		   30	   0	NOP			N	0	N
+		   31	   0	NOP			N	0	N
+		   32	   0	NOP			N	0	N
+		   33	   0	NOP			N	0	N
+		   34	   0	NOP			N	0	N
+		   35	   0	NOP			N	0	N
+		   36	   0	NOP			N	0	N
+		   37	   0	NOP			N	0	N
+		   38	   0	NOP			N	0	N
+		   39	   0	NOP			N	0	N
+		   3A	   0	NOP			N	0	N
+		   3B	   0	NOP			N	0	N
+		   3C	   0	NOP			N	0	N
+		   3D	   0	NOP			N	0	N
+		   3E	   0	NOP			N	0	N
+		   3F	   0	NOP			N	0	N
+		   40	   0	NOP			N	0	N
+		   41	   0	NOP			N	0	N
+		   42	   0	NOP			N	0	N
+		   43	   0	NOP			N	0	N
+		   44	   0	NOP			N	0	N
+		   45	   0	NOP			N	0	N
+		   46	   0	NOP			N	0	N
+		   47	   0	NOP			N	0	N
+		   48	   0	NOP			N	0	N
+		   49	   0	NOP			N	0	N
+		   4A	   0	NOP			N	0	N
+		   4B	   0	NOP			N	0	N
+		   4C	   0	NOP			N	0	N
+		   4D	   0	NOP			N	0	N
+		   4E	   0	NOP			N	0	N
+		   4F	   0	NOP			N	0	N
+		   50	   0	NOP			N	0	N
+		   51	   0	NOP			N	0	N
+		   52	   0	NOP			N	0	N
+		   53	   0	NOP			N	0	N
+		   54	   0	NOP			N	0	N
+		   55	   0	NOP			N	0	N
+		   56	   0	NOP			N	0	N
+		   57	   0	NOP			N	0	N
+		   58	   0	NOP			N	0	N
+		   59	   0	NOP			N	0	N
+		   5A	   0	NOP			N	0	N
+		   5B	   0	NOP			N	0	N
+		   5C	   0	NOP			N	0	N
+		   5D	   0	NOP			N	0	N
+		   5E	   0	NOP			N	0	N
+		   5F	   0	NOP			N	0	N
+		   60	   0	NOP			N	0	N
+		   61	   0	NOP			N	0	N
+		   62	   0	NOP			N	0	N
+		   63	   0	NOP			N	0	N
+		   64	   0	NOP			N	0	N
+		   65	   0	NOP			N	0	N
+		   66	   0	NOP			N	0	N
+		   67	   0	NOP			N	0	N
+		   68	   0	NOP			N	0	N
+		   69	   0	NOP			N	0	N
+		   6A	   0	NOP			N	0	N
+		   6B	   0	NOP			N	0	N
+		   6C	   0	NOP			N	0	N
+		   6D	   0	NOP			N	0	N
+		   6E	   0	NOP			N	0	N
+		   6F	   0	NOP			N	0	N
+		   70	   0	NOP			N	0	N
+		   71	   0	NOP			N	0	N
+		   72	   0	NOP			N	0	N
+		   73	   0	NOP			N	0	N
+		   74	   0	NOP			N	0	N
+		   75	   0	NOP			N	0	N
+		   76	   0	NOP			N	0	N
+		   77	   0	NOP			N	0	N
+		   78	   0	NOP			N	0	N
+		   79	   0	NOP			N	0	N
+		   7A	   0	NOP			N	0	N
+		   7B	   0	NOP			N	0	N
+		   7C	   0	NOP			N	0	N
+		   7D	   0	NOP			N	0	N
+		   7E	   0	NOP			N	0	N
+		   7F	   0	NOP			N	0	N
+		   80	   0	NOP			N	0	N
+		   81	   0	NOP			N	0	N
+		   82	   0	NOP			N	0	N
+		   83	   0	NOP			N	0	N
+		   84	   0	NOP			N	0	N
+		   85	   0	NOP			N	0	N
+		   86	   0	NOP			N	0	N
+		   87	   0	NOP			N	0	N
+		   88	   0	NOP			N	0	N
+		   89	   0	NOP			N	0	N
+		   8A	   0	NOP			N	0	N
+		   8B	   0	NOP			N	0	N
+		   8C	   0	NOP			N	0	N
+		   8D	   0	NOP			N	0	N
+		   8E	   0	NOP			N	0	N
+		   8F	   0	NOP			N	0	N
+		   90	   0	NOP			N	0	N
+		   91	   0	NOP			N	0	N
+		   92	   0	NOP			N	0	N
+		   93	   0	NOP			N	0	N
+		   94	   0	NOP			N	0	N
+		   95	   0	NOP			N	0	N
+		   96	   0	NOP			N	0	N
+		   97	   0	NOP			N	0	N
+		   98	   0	NOP			N	0	N
+		   99	   0	NOP			N	0	N
+		   9A	   0	NOP			N	0	N
+		   9B	   0	NOP			N	0	N
+		   9C	   0	NOP			N	0	N
+		   9D	   0	NOP			N	0	N
+		   9E	   0	NOP			N	0	N
+		   9F	   0	NOP			N	0	N
+		   A0	   0	NOP			N	0	N
+		   A1	   0	NOP			N	0	N
+		   A2	   0	NOP			N	0	N
+		   A3	   0	NOP			N	0	N
+		   A4	   0	NOP			N	0	N
+		   A5	   0	NOP			N	0	N
+		   A6	   0	NOP			N	0	N
+		   A7	   0	NOP			N	0	N
+		   A8	   0	NOP			N	0	N
+		   A9	   0	NOP			N	0	N
+		   AA	   0	NOP			N	0	N
+		   AB	   0	NOP			N	0	N
+		   AC	   0	NOP			N	0	N
+		   AD	   0	NOP			N	0	N
+		   AE	   0	NOP			N	0	N
+		   AF	   0	NOP			N	0	N
+	B0	   B0	   3	
+	B1	   B1	   4	
+		   B2	   0	
+		   B3	   0	
+		   B4	   0	
+		   B5	   0	
+		   B6	   0	
+		   B7	   0	
+		   B8	   0	
+		   B9	   0	
+		   BA	   0	
+		   BB	   0	
+		   BC	   0	
+		   BD	   0	
+		   BE	   0	
+		   BF	   0	
+		   C0	   0	
+		   C1	   0	
+		   C2	   0	
+		   C3	   0	
+		   C4	   8	
+		   C5	   0	
+		   C6	   0	
+		   C7	   0	
+		   C8	   0	
+		   C9	   0	
+		   CA	   0	
+		   CB	   B	
+		   CC	   0	
+		   CD	   0	
+		   CE	   0	
+		   CF	   0	
+		   D0	   0	
+		   D1	   0	
+		   D2	   0	
+		   D3	   0	
+		   D4	   0	
+		   D5	   0	
+		   D6	   0	
+		   D7	   0	
+		   D8	   0	
+		   D9	   0	
+		   DA	   0	
+		   DB	   0	
+		   DC	   0	
+		   DD	   0	
+		   DE	   0	
+		   DF	   0	
+		   E0	   0	
+		   E1	   0	
+		   E2	   0	
+		   E3	   0	
+		   E4	   0	
+		   E5	   0	
+		   E6	   0	
+		   E7	   0	
+		   E8	   0	
+		   E9	   0	
+		   EA	   0	
+		   EB	   0	
+		   EC	   0	
+		   ED	   0	
+		   EE	   0	
+		   EF	   0	
+		   F0	   0	
+		   F1	   0	
+		   F2	   0	
+		   F3	   0	
+		   F4	   0	
+		   F5	   0	
+		   F6	   0	
+		   F7	   0	
+		   F8	   0	
+		   F9	   0	
+		   FA	   0	
+		   FB	   0	
+		   FC	   0	
+		   FD	   0	
+		   FE	   0	
+		   FF	   0	
