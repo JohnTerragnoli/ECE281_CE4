@@ -81,11 +81,11 @@ The most important parts of the code for Part C are produced below:
 
 
 ```
-		   00	   5	IN	3	N	1	Y	//puts the value in the 3rd input into the accumulator
+		   00	   5	IN	3		N	1	Y	//puts the value in the 3rd input into the accumulator
 		   01	   3				Y	0	N
 loop	   02	   4	OUT	0		N	1	Y//puts the value in the accumulator onto the third output
 		   03	   0				Y	0	N
-		   04	   6	ADDI	F		N	1	Y//adds 1's compliment, like subtracting 1
+		   04	   6	ADDI	F	N	1	Y//adds 1's compliment, like subtracting 1
 		   05	   F				Y	0	N
 		   06	   4	OUT	1		N	1	Y//puts the value in the accumulator onto the third output
 		   07	   1				Y	0	N
