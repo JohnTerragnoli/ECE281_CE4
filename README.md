@@ -81,21 +81,21 @@ The most important parts of the code for Part C are produced below:
 
 
 ```
-		   00	   5	IN	3	puts the value in the 3rd input into the accumulator	N	1	Y
+		   00	   5	IN	3	N	1	Y	//puts the value in the 3rd input into the accumulator
 		   01	   3				Y	0	N
-	loop	   02	   4	OUT	0	puts the value in the accumulator onto the third output	N	1	Y
+loop	   02	   4	OUT	0		N	1	Y//puts the value in the accumulator onto the third output
 		   03	   0				Y	0	N
-		   04	   6	ADDI	F	adds 1's compliment, like subtracting 1	N	1	Y
+		   04	   6	ADDI	F		N	1	Y//adds 1's compliment, like subtracting 1
 		   05	   F				Y	0	N
-		   06	   4	OUT	1	puts the value in the accumulator onto the third output	N	1	Y
+		   06	   4	OUT	1		N	1	Y//puts the value in the accumulator onto the third output
 		   07	   1				Y	0	N
-		   08	   6	ADDI	F	adds 1's compliment, like subtracting 1	N	1	Y
+		   08	   6	ADDI	F		N	1	Y//adds 1's compliment, like subtracting 1
 		   09	   F				Y	0	N
-		   0A	   4	OUT	2	puts the value in the accumulator onto the third output	N	1	Y
+		   0A	   4	OUT	2		N	1	Y//puts the value in the accumulator onto the third output
 		   0B	   2				Y	0	N
-		   0C	   6	ADDI	1	adds 1 so the cycle can start over	N	1	Y
+		   0C	   6	ADDI	1		N	1	Y//adds 1 so the cycle can start over
 		   0D	   1				Y	0	N
-		   0E	   9	JMP	loop	loops up to	N	2	Y
+		   0E	   9	JMP	loop		N	2	Y//loops up to the label "loop" and the top.  
 		   0F	   2				Y	0	N
 		   10	   0				Y	0	N
 ```
