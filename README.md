@@ -51,7 +51,7 @@ The full assembly code for Part B can be seen here: [Part_B](https://raw.githubu
 		   05	   B				Y	0	N
 		   06	   6	ADDI	C	N	1	N	//adds 4's compliment in hex, just like subracting 4 from the accumulator
 		   07	   C				Y	0	N
-		   08	   4	OUT	2	N	1	N //outputs the value in the accumulator to the second output
+		   08	   4	OUT	2		N	1	N //outputs the value in the accumulator to the second output
 		   09	   2				Y	0	N
 loop	   0A	   9	JMP	loop	N	2	N
 		   0B	   A				Y	0	N
