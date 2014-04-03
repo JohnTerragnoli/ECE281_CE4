@@ -42,6 +42,19 @@ The rest of the code in Part A simply took up space, it just contained commands 
 #Part B
 The full assembly code for Part B can be seen here: [Part_B](https://raw.githubusercontent.com/JohnTerragnoli/ECE281_CE4/master/Part%20B%20Code.psm)
 
+		   00	   F	LDAD	B0		N	2	N//puts the number from location B0 into the accumulator
+		   01	   0		Y	0	N
+		   02	   B		Y	0	N
+		   03	   E	ADDD	B0		N	2	N//adds the number from B0 to the accumulator again
+		   04	   0		Y	0	N
+		   05	   B		Y	0	N
+		   06	   6	ADDI	C	N	1	N	//adds 4's compliment in hex, just like subracting 4 from the accumulator
+		   07	   C		Y	0	N
+		   08	   4	OUT	2		N	1	N //outputs the value in the accumulator to the second output
+		   09	   2		Y	0	N
+	loop	   0A	   9	JMP	loopN	2	N
+		   0B	   A		Y	0	N
+		   0C	   0		Y	0	N
 
 
 
